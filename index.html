@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <h1>Dmv</h1>
+
+    <h2>Registration Form</h2>
+
+    <div style="border: solid 2px black; padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <p>
+                    <label>First & Last Name: <input name="name" /></label>
+                </p>
+                <p>
+                    <label>D.O.B: <input type="date" name="date" /></label>
+                </p>
+                <p>
+                    <label>Gender: <input type="gender" name="gender" /></label>
+                </p>
+                <p>
+                    <label>Telephone: <input type="tel" name="tel" /></label>
+                </p>
+                <p>
+                    <label>Email Address: <input type="email" name="email" /></label>
+                </p>
+            </fieldset>
+
+
+            <br />
+            <fieldset>
+                <legend>Available Services:</legend>
+                <br />
+
+                <p>
+                    <input type="checkbox" name="fixins" id="onions" value="onions" />
+                    <label for="Renew driver licence">Renew driver licence</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="guacamole" value="guacamole" />
+                    <label for="Apply for ID">Apply for ID</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="queso" value="queso" />
+                    <label for="License Plates">License Plates</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="lettuce" value="lettuce" />
+                    <label for="Driving Test">Driving Test</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="beans" value="beans" />
+                    <label for="Pay Fees">Pay Fees</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="fixins" id="rice" value="rice" />
+                    <label for="Title Transfer">Title Transfer</label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Schedule an Appointment</legend>
+                <p>
+                    <label for="time">Appointment schduled at:</label>
+                    <input id="time" name="time" type="time" min="11:00" max="21:00" step="900">
+                </p>
+                <p>
+                    Registration Instructions:
+                    <textarea name="instructions"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </fieldset>
+
+        </form>
+    </div>
+    <br />
+    <hr />
+    <h1>My DMV</h1>
+    <ul>
+        <li>Vehicle Registration</li>
+        <li>DMV Location</li>
+        <li>Call DMV Center</li>
+    </ul>
+
+    <h1>My DMV</h1>
+    <div>
+        <h2>Vehicle Registration</h2>
+        <p>Not sure how to title and register your vehicle? Check out our step-by-step interactive guide to walk you
+            through what to expect on basic vehicle ...</p>
+    </div>
+
+    <div style="border:2px solid rgb(244, 8, 36);">
+        <h2>DMV Location</h2>
+        <p>Select your county below for information on local driver license and motor vehicle service centers, Bureau
+            for Administrative Reviews, Florida Highway Patrol stations, Clerk of the Court offices and motorist
+            services regional offices.</p>
+    </div>
+
+    <div style="background-color: rgb(20, 213, 243);">
+        <h2>Call DMV Center</h2>
+        <p>Please call our contact center at 888-692-6841 for help with scheduling an appointment. What to Expect during
+            your Driving Test.Please call our contact center at 888-692-6841 for help with scheduling an appointment.
+            What to Expect during your Driving Test.Please call our contact center at 888-692-6841 for help with
+            scheduling an appointment. What to Expect during your Driving Test.</p>
+    </div>
+    <nav style="text-align: right;">
+        <a href="../1-HTML-Recap/index.html">HTML Recap</a>
+        <a href="../2-CSS-Basics/index.html">CSS Basics</a>
+    </nav> 
+
+    <nav>
+        <h1>Vertical Navigation Bar</h1>
+        <ul>
+            <li>
+                <a href="./03-lists.html">Lists</a>
+            </li>
+            <li>
+                <a href="./05-images.html">Images</a>
+            </li>
+            <li>
+                <a href="./06-tables.html">Tables</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>IFrames</h1>
+    <p>
+        An iframe allows us to embed HTML documents inside HTML documents!
+    </p>
+    <iframe src="https://www.youtube.com/embed/WhgVBLsOPxM" frameborder="0" width="560" height="315" allowfullscreen>
+    </iframe>
+
+    <footer style="background-color: grey;">
+        <p>Copyright © 2006 The Example Company</p>
+        <p>
+            <a href="#about">About Us</a> -
+            <a href="#policy">Policy</a> -
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
+</body>
+
+</html>
